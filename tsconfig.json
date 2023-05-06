@@ -1,16 +1,12 @@
 {
+  "extends": "./tsconfig.extend-expo.json",
   "compilerOptions": {
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "module": "esnext",
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "extends": "expo/tsconfig.base",
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
