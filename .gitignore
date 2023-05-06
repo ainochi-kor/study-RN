@@ -62,3 +62,9 @@ buck-out/
 # Expo
 .expo/*
 web-build/
+
+# misc
+.DS_Store
+.env*
+
+.next
