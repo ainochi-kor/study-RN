@@ -10,8 +10,8 @@ const ImageViewer: React.FC<P> = ({ selectedImage }) => {
     <Image
       source={selectedImage}
       style={{
-        width: 320,
-        height: 440,
+        width: 400,
+        height: 400,
         borderRadius: 18,
       }}
       alt="image"

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
     "expo": "^48.0.7",
     "expo-image-picker": "~14.1.1",
     "next": "^13.4.1",
